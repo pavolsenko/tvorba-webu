@@ -1,8 +1,21 @@
 html, body {
     padding: 0;
     margin: 0;
-    background-color: #d0d0d0;
     font-family: 'Roboto', sans-serif;
+    background-color: #e0e0e0;
+    color: #444444;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2 {
+    margin: 0 0 10px;
 }
 
 .wrapper {
@@ -12,5 +25,65 @@ html, body {
 }
 
 .main {
-    width: 800px;
+    width: 1024px;
+}
+
+.main>div {
+    border: 2px solid #303030;
+    border-radius: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px grey;
+}
+
+.menu {
+    background-color: #5c4b51;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0 20px;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 10px 20px;
+}
+
+.menu a {
+    color: #d0d0d0;
+}
+
+.content {
+    padding: 30px;
+}
+
+.two-columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.main-image img {
+    width: 200px;
+    margin-left: 20px;
+    border-radius: 10px
+}
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blue {
+    background-color: #8cbeb2;
+}
+
+.red {
+    background-color: #f06060;
+}
+
+.orange {
+    background-color: #f3b562;
 }
