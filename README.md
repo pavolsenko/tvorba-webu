@@ -8,6 +8,7 @@ Vytvoríme si základný súbor `index.html` (všetky webstránky začínajú in
 <html lang="sk">
 <head>
     // toto je hlavicka
+    <title>Moja prvá webstránka</title>
 </head>
 
 <body>
