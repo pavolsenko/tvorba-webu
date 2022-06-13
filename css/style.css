@@ -67,7 +67,20 @@ h1, h2 {
 .main-image img {
     width: 200px;
     margin-left: 20px;
-    border-radius: 10px
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.image img {
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid black;
 }
 
 .footer {
